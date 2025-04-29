@@ -1,0 +1,114 @@
+main {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+.coordonnées, .map {
+    display: table-cell;
+    border: 2px solid black;
+    vertical-align: middle;
+}
+
+.coordonnées {
+    width: 200vw;
+    text-align: center;
+}
+
+.map {
+    width: 140vw;
+    text-align: center;
+}
+
+.mentions {
+    text-align: center;
+}
+
+footer {
+    background-color: grey;
+    margin-top: 1rem;
+}
+
+.inventaire {
+    display: flex;
+    justify-content: space-around;
+}
+
+.un {
+    border: 2px solid black;
+    width: 36vw;
+    height: 36.2vh;
+    text-align: center;
+    display: flexbox;
+    justify-content: space-around;
+    margin-top: 1rem ;
+}
+
+button {
+    background-color: greenyellow;
+    margin-top: -70rem;
+}
+
+.canin {
+    text-align: left;
+}
+
+.deux {
+    border: 2px solid black;
+    width: 36vw;
+    height: 36.2vh;
+    text-align: center;
+    display: flexbox;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.miaou {
+    text-align: left;
+}
+
+.trois {
+    border: 2px solid black;
+    width: 36vw;
+    height: 36.2vh;
+    text-align: center;
+    display: flexbox;
+    justify-content: space-around;
+    margin-top: 1rem ;
+}
+
+.panier {
+    text-align: left;
+}
+
+.inventaire2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quatre {
+    border: 2px solid black;
+    width: 31.7vw;
+    height: 36.2vh;
+    text-align: center;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+.friandise {
+    text-align: left;
+}
+
+.cinq {
+    border: 2px solid black;
+    width: 31.7vw;
+    height: 36.2vh;
+    text-align: center;
+    display: flexbox;
+    justify-content: space-around;  
+}
