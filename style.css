@@ -49,13 +49,22 @@ footer {
     margin-top: 1rem ;
 }
 
+p {
+    text-align: right;
+    margin: 2rem;
+}
+
 button {
     background-color: greenyellow;
-    margin-top: -70rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    margin: 1rem;
 }
 
 .canin {
     text-align: left;
+    margin-top: -10.25rem;
 }
 
 .deux {
@@ -70,7 +79,10 @@ button {
 
 .miaou {
     text-align: left;
+    margin-top: -10.25rem;
 }
+
+
 
 .trois {
     border: 2px solid black;
@@ -84,6 +96,8 @@ button {
 
 .panier {
     text-align: left;
+    margin-top: -0.5rem;
+
 }
 
 .inventaire2 {
@@ -102,6 +116,8 @@ button {
 
 .friandise {
     text-align: left;
+    margin-top: -10.2rem;
+
 }
 
 .cinq {
@@ -111,4 +127,9 @@ button {
     text-align: center;
     display: flexbox;
     justify-content: space-around;  
+}
+
+.nonos {
+    text-align: left;
+    margin-top: -2rem;
 }
