@@ -1,114 +1,139 @@
-main {
+/* Haut de page */
+header {
     text-align: center;
-    border: 2px solid black;
+    background-color: rgb(180, 136, 136);
+    /* border: 2px solid black; */
 }
 
-.flexcontainer {
+/* Interface */
+.navigation {
     display: flex;
     justify-content: space-around;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    background-color: burlywood;
 }
 
-.coordonnées, .map {
-    display: table-cell;
-    border: 2px solid black;
-    vertical-align: middle;
+/* Milieu de page */
+
+body {
+    background-color: beige;
+}
+.logistique {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.café {
+    text-align: center;
+    font-size: 20;
+    margin-top: 1rem;
+}
+
+p {
+    /* border: 2px solid black; */
+    margin-top: 0rem;
+}
+
+.canimo {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    /* border: 2px solid blue; */
+    margin-top: 1rem;
+}
+/* Milieu de page */
+
+/* Inventaire 1 */
+.inventaire1 {
+    /* border: 2px solid red; */
+    height: 41vh;
+    width: 15vw;
+    flex-direction: column;
+    margin: 4rem;
+    background-color: lightslategray;
+}
+/* Inventaire1 */
+
+/* Inventaire 2 */
+.inventaire2 {
+    /* border: 2px solid red; */
+    height: 41vh;
+    width: 15vw;
+    flex-direction: column;
+    margin: 4rem;
+    background-color: lightslategray;
+}
+/* Inventaire2 */
+
+/* Inventaire3 */
+.inventaire3 {
+    /* border: 2px solid red; */
+    height: 41vh;
+    width: 15vw;
+    flex-direction: column;
+    margin: 4rem;
+    background-color: lightslategray;
+}
+/* Inventaire3 */
+
+/* Inventaire4 */
+.inventaire4 {
+    /* border: 2px solid red; */
+    height: 41vh;
+    width: 15vw;
+    flex-direction: column;
+    margin: 4rem;
+    background-color: lightslategray;
+}
+/* Inventaire4 */
+
+/* Inventaire5 */
+.inventaire5 {
+    /* border: 2px solid red; */
+    height: 41vh;
+    width: 15vw;
+    flex-direction: column;
+    margin: 4rem;
+    background-color: lightslategray;
+}
+/* Inventaire5 */
+
+/* Inventaire6 */
+.inventaire6 {
+    /* border: 2px solid black; */
+    height: 41vh;
+    width: 15vw;
+    flex-direction: column;
+    margin: 4rem;
+    background-color: lightslategray;
+}
+/* Inventaire6 */
+
+/* Bas de page */
+footer  {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+}
+
+.map, .coordonnées {
+    /* border: 2px solid black; */
 }
 
 .coordonnées {
-    width: 200vw;
     text-align: center;
-}
-
-.map {
-    width: 140vw;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .mentions {
     text-align: center;
-}
+    /* border: 2px solid black; */
+    background-color: lightgray;
 
-footer {
-    background-color: grey;
-    margin-top: 1rem;
-}
-
-.inventaire {
-    display: flex;
-    justify-content: space-around;
-}
-
-.un {
-    border: 2px solid black;
-    width: 36vw;
-    height: 36.2vh;
-    text-align: center;
-    display: flexbox;
-    justify-content: space-around;
-    margin-top: 1rem ;
-}
-
-button {
-    background-color: greenyellow;
-    margin-top: -70rem;
-}
-
-.canin {
-    text-align: left;
-}
-
-.deux {
-    border: 2px solid black;
-    width: 36vw;
-    height: 36.2vh;
-    text-align: center;
-    display: flexbox;
-    justify-content: space-around;
-    margin-top: 1rem;
-}
-
-.miaou {
-    text-align: left;
-}
-
-.trois {
-    border: 2px solid black;
-    width: 36vw;
-    height: 36.2vh;
-    text-align: center;
-    display: flexbox;
-    justify-content: space-around;
-    margin-top: 1rem ;
-}
-
-.panier {
-    text-align: left;
-}
-
-.inventaire2 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.quatre {
-    border: 2px solid black;
-    width: 31.7vw;
-    height: 36.2vh;
-    text-align: center;
-    display: flexbox;
-    justify-content: space-around;
-}
-
-.friandise {
-    text-align: left;
-}
-
-.cinq {
-    border: 2px solid black;
-    width: 31.7vw;
-    height: 36.2vh;
-    text-align: center;
-    display: flexbox;
-    justify-content: space-around;  
 }
