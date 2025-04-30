@@ -1,135 +1,120 @@
-main {
+/* Haut de page */
+header {
     text-align: center;
     border: 2px solid black;
 }
 
-.flexcontainer {
+/* Interface */
+.navigation {
     display: flex;
     justify-content: space-around;
     border: 2px solid black;
 }
 
-.coordonnées, .map {
-    display: table-cell;
+/* Milieu de page */
+
+body {
+    background-color: beige;
+}
+.logistique {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inventaire1 {
     border: 2px solid black;
-    vertical-align: middle;
+    display: flex;
+    height: 35vh;
+    width: 15vw;
+    margin: 5rem; 
+    justify-content:center;
+}
+
+h2, h4 {
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: column;
+}
+
+h2 {
+    border: 2px solid black;
+    height: 10%;
+}
+
+h4 {
+    border: 2px solid black;
+    height: 10%;
+}
+
+.canimo {
+    /* position: absolute;
+    right: 85.5rem;
+    top: 26.75rem; */
+}
+.inventaire2 {
+    border: 2px solid black;
+    display: flex;
+    height: 35vh;
+    width: 15vw;
+    margin: 5rem;
+}
+
+.inventaire3 {
+    border: 2px solid black;
+    display: flex;
+    height: 40vh;
+    width: 20vw;
+    margin: 5rem;
+}
+
+.inventaire4 {
+    border: 2px solid black;
+    display: flex;
+    height: 40vh;
+    width: 20vw;
+    margin: 5rem;
+}
+
+.inventaire5 {
+    border: 2px solid black;
+    display: flex;
+    height: 40vh;
+    width: 20vw;
+    margin: 5rem;
+}
+
+.inventaire6 {
+    border: 2px solid black;
+    display: flex;
+    height: 40vh;
+    width: 20vw;
+    margin: 5rem;
+}
+
+
+/* Bas de page */
+footer  {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+}
+
+.map, .coordonnées {
+    border: 2px solid black;
 }
 
 .coordonnées {
-    width: 200vw;
     text-align: center;
-}
-
-.map {
-    width: 140vw;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .mentions {
     text-align: center;
-}
-
-footer {
-    background-color: grey;
-    margin-top: 1rem;
-}
-
-.inventaire {
-    display: flex;
-    justify-content: space-around;
-}
-
-.un {
     border: 2px solid black;
-    width: 36vw;
-    height: 36.2vh;
-    text-align: center;
-    display: flexbox;
-    justify-content: space-around;
-    margin-top: 1rem ;
-}
+    background-color: lightgray;
 
-p {
-    text-align: right;
-    margin: 2rem;
-}
-
-button {
-    background-color: greenyellow;
-    display: inline-block;
-    text-align: center;
-    font-size: 16px;
-    margin: 1rem;
-}
-
-.canin {
-    text-align: left;
-    margin-top: -10.25rem;
-}
-
-.deux {
-    border: 2px solid black;
-    width: 36vw;
-    height: 36.2vh;
-    text-align: center;
-    display: flexbox;
-    justify-content: space-around;
-    margin-top: 1rem;
-}
-
-.miaou {
-    text-align: left;
-    margin-top: -10.25rem;
-}
-
-
-
-.trois {
-    border: 2px solid black;
-    width: 36vw;
-    height: 36.2vh;
-    text-align: center;
-    display: flexbox;
-    justify-content: space-around;
-    margin-top: 1rem ;
-}
-
-.panier {
-    text-align: left;
-    margin-top: -0.5rem;
-
-}
-
-.inventaire2 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.quatre {
-    border: 2px solid black;
-    width: 31.7vw;
-    height: 36.2vh;
-    text-align: center;
-    display: flexbox;
-    justify-content: space-around;
-}
-
-.friandise {
-    text-align: left;
-    margin-top: -10.2rem;
-
-}
-
-.cinq {
-    border: 2px solid black;
-    width: 31.7vw;
-    height: 36.2vh;
-    text-align: center;
-    display: flexbox;
-    justify-content: space-around;  
-}
-
-.nonos {
-    text-align: left;
-    margin-top: -2rem;
 }
